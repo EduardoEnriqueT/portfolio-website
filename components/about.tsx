@@ -8,7 +8,7 @@ import { useSectionInView } from '@/lib/hooks';
 
 export default function About() {
 
-  const {ref} = useSectionInView("About", 0.80)
+  const {ref} = useSectionInView("About", 0.90)
   
   return (
     <motion.section 
@@ -21,23 +21,14 @@ export default function About() {
     >
         <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
-        Upper Senior majoring in{" "}
-        <span className="font-medium">Computer Systems</span> with
-        entry-level experience specializing in{" "}
-        <span className="font-medium">full-stack web development</span>,{" "}
-        <span className="italic">user interface design</span> and{" "}
-        <span className="italic"> aplication development</span>. I {" "}
-        <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, Java, Python and MySqL 
-        </span>
-        . I am also familiar with TypeScript. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+        Fullstack Developer with{" "}
+        <span className="font-medium">hands-on experience</span>designing,
+        developing, and deploying innovative{" "}
+        <span className="font-medium">software solutions</span>,{" "}
+        <span className="italic">Motivated Self-starter</span> focused{" "}
+        <span className="italic">on leveraging the latest technologies and frameworks</span> to {" "}
+        <span className="underline">create and deliver</span> new user-focused solutions while increasing reliability, stability, and performance at scale.{" "}
+       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
